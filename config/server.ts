@@ -4,8 +4,6 @@ export default ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS"),
   },
-  proxy: true,
-  url: "https://dev.legalsister.org",
   // Allow your domain
   allowedHosts: ["dev.legalsister.org", "www.dev.legalsister.org"],
 });
